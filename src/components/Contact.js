@@ -21,7 +21,7 @@ export default function Contact() {
       console.log(e.target.value)
       setFormData(prevFormData=>{
         return {
-            ...prevFormData,
+            //...prevFormData,
             [e.target.value]:e.target.vale
         }
       })
