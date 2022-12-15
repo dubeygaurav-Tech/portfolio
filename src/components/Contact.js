@@ -37,8 +37,8 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.747305185288!2d11.566239316508224!3d48.11511016070314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf152da11271%3A0xaf06a94dfcb0f99!2sThusneldastra%C3%9Fe%201%2C%2081543%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1671108762468!5m2!1sen!2sde"
-          />
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.747305185288!2d11.566239316508224!3d48.11511016070314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf152da11271%3A0xaf06a94dfcb0f99!2sThusneldastra%C3%9Fe%201%2C%2081543%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1671108762468!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
           <div className="bg-gray-900 relative flex flex-wrap py-10 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
