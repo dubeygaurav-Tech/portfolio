@@ -1,9 +1,9 @@
 import React from "react";
-import emailjs,{init} from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   // Send email on submit
-  init("38RJhyjc4R9AeKNxQ")
+  //init("38RJhyjc4R9AeKNxQ")
   const form=React.useRef();
 
   const [name, setName] = React.useState("");
