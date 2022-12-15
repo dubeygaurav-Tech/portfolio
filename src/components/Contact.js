@@ -30,7 +30,7 @@ export default function Contact() {
   function handleSubmit(e) {
     e.preventDefault();  
     console.log(name +" "+email+" "+message);
-
+    alert("Message Sent successfully to the user!!")
     /*emailjs.sendForm("service_gd_gmail", "template_email_gd", form.current, "38RJhyjc4R9AeKNxQ").then(
       (result) => {
         alert("Message sent!");
