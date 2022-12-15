@@ -3,7 +3,7 @@ import emailjs,{init} from "@emailjs/browser";
 
 export default function Contact() {
   // Send email on submit
-  init("dubeygaurav.tech@gmail.com")
+  init("38RJhyjc4R9AeKNxQ")
   const form=React.useRef();
 
   const [name, setName] = React.useState("");
