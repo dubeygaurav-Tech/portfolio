@@ -54,7 +54,7 @@ export default function Contact() {
             marginWidth={0} style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.747305185288!2d11.566239316508224!3d48.11511016070314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf152da11271%3A0xaf06a94dfcb0f99!2sThusneldastra%C3%9Fe%201%2C%2081543%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1671108762468!5m2!1sen!2sde"/>
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
+            <div className="lg:w-2/5 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
@@ -63,7 +63,7 @@ export default function Contact() {
                 Munich 81543
               </p>
             </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <div className="lg:w-3/5 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
