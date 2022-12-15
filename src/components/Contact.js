@@ -45,7 +45,7 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                Thusneldastr. 1<br />
+                Thusneldastr. 10<br />
                 Munich 81543
               </p>
             </div>
