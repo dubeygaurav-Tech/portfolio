@@ -15,13 +15,15 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("/", {
+    console.log(name +" "+email+" "+message);
+    /*fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "test", name, email, message }),
     })
       .then(() => alert("Message sent!"))
       .catch((error) => alert(error));
+    */
   }
 
   return (
@@ -100,9 +102,7 @@ export default function Contact() {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <button
-            type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          <button type="submit" className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
           </button>
         </form>
