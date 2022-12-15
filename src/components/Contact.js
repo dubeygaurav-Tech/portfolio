@@ -39,7 +39,7 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/place/Thusneldastra%C3%9Fe+1,+81543+M%C3%BCnchen/@48.1151102,11.5662393,17z/data=!4m13!1m7!3m6!1s0x479ddf152da11271:0xaf06a94dfcb0f99!2sThusneldastra%C3%9Fe+1,+81543+M%C3%BCnchen!3b1!8m2!3d48.1151066!4d11.568428!3m4!1s0x479ddf152da11271:0xaf06a94dfcb0f99!8m2!3d48.1151066!4d11.568428"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="bg-gray-900 relative flex flex-wrap py-10 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
@@ -49,7 +49,7 @@ export default function Contact() {
                 Munich 81543
               </p>
             </div>
-            <div className="lg:w-1/2 px mt-4 lg:mt-0">
+            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
