@@ -21,7 +21,7 @@ export default function Contact() {
       console.log(e.target.value)
       setFormData(prevFormData=>{
         return {
-            //...prevFormData,
+            ...prevFormData,
             [e.target.value]:e.target.vale
         }
       })
@@ -30,14 +30,13 @@ export default function Contact() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(name +" "+email+" "+message);
-    /*fetch("/", {
+    fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "test", name, email, message }),
     })
       .then(() => alert("Message sent!"))
       .catch((error) => alert(error));
-    */
   }
 
   return (
