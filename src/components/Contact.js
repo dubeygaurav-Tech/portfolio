@@ -37,7 +37,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://goo.gl/maps/1xmTzTS2CKQ2WEBX9"
+            src="https://www.google.com/maps/place/Thusneldastra%C3%9Fe+1,+81543+M%C3%BCnchen/@48.1151102,11.5662393,17z/data=!4m13!1m7!3m6!1s0x479ddf152da11271:0xaf06a94dfcb0f99!2sThusneldastra%C3%9Fe+1,+81543+M%C3%BCnchen!3b1!8m2!3d48.1151066!4d11.568428!3m4!1s0x479ddf152da11271:0xaf06a94dfcb0f99!8m2!3d48.1151066!4d11.568428"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
