@@ -1,6 +1,11 @@
 import React from "react";
+import emailjs,{init} from "@emailjs/browser";
 
 export default function Contact() {
+  // Send email on submit
+  init("dubeygaurav.tech@gmail.com")
+  const form=React.useRef();
+
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
@@ -18,25 +23,27 @@ export default function Contact() {
   }
 
   function handleChange(e){
-      console.log(e.target.value)
       setFormData(prevFormData=>{
         return {
             ...prevFormData,
-            [e.target.value]:e.target.vale
+            [e.target.value]:""//e.target.value
         }
       })
   }
 
   function handleSubmit(e) {
-    e.preventDefault();
+    e.preventDefault();  
     console.log(name +" "+email+" "+message);
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "test", name, email, message }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+
+    emailjs.sendForm("service_gd_gmail", "template_email_gd", form.current, "38RJhyjc4R9AeKNxQ").then(
+      (result) => {
+        alert("Message sent!");
+        console.log(result.text)
+      },(error) => alert(error)
+    );
+
+    e.target.reset();
+
   }
 
   return (
@@ -70,7 +77,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <form netlify name="test" onSubmit={handleSubmit} className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+        <form netlify name="test" onSubmit={handleSubmit} ref={form} className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
