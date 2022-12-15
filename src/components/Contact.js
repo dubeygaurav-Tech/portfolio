@@ -1,10 +1,6 @@
 import React from "react";
-import emailjs from "@emailjs/browser";
 
 export default function Contact() {
-  // Send email on submit
-  //init("38RJhyjc4R9AeKNxQ")
-  const form=React.useRef();
 
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
@@ -35,12 +31,13 @@ export default function Contact() {
     e.preventDefault();  
     console.log(name +" "+email+" "+message);
 
-    emailjs.sendForm("service_gd_gmail", "template_email_gd", form.current, "38RJhyjc4R9AeKNxQ").then(
+    /*emailjs.sendForm("service_gd_gmail", "template_email_gd", form.current, "38RJhyjc4R9AeKNxQ").then(
       (result) => {
         alert("Message sent!");
         console.log(result.text)
       },(error) => alert(error)
     );
+    */
 
     e.target.reset();
 
