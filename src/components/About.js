@@ -8,11 +8,17 @@ export default function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Gaurav Dubey.
             <br className="hidden lg:inline-block" />Solutions Architect - Output Management Systems
-            apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-          I am working as a Solutions Architect for providing solutions for the Output Management Systems
-          used by clients in the Banking and Insurance domain.
+          Solutions Architect for Output Management System with over 9 years of experience in implementation
+          of Customer Communications Solutions for clients in Insurance, Banking and Card
+          Payments domain.
+          Gained extensive experience on the document generation process while working
+          on multiple CCM solutions including Smart Communications, Thunderhead,
+          XPression and Quadient.
+          Experience in Client interaction, leading the project development team and
+          managing the resources while working as the offshore lead and client’s point of
+          contact.
           </p>
           <div className="flex justify-center">
             <a
