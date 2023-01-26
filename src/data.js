@@ -64,3 +64,11 @@ export const skills = [
   "React",
   "PostgreSQL"
 ];
+
+export const managementSkills = [
+  "JIRA",
+  "Sharepoint",
+  "COnfluence",
+  "AGM",
+  "Rally"
+]
