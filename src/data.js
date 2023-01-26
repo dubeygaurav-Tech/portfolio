@@ -54,10 +54,12 @@ export const testimonials = [
 ];
 
 export const skills = [
+  "Thunderhead",
+  "Smart Communications",
+  "xPression",
+  "Quadient",
+  "Spring boot",
   "JavaScript",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "PostgreSQL"
 ];
