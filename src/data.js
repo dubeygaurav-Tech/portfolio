@@ -58,6 +58,7 @@ export const skills = [
   "Smart Communications",
   "xPression",
   "Quadient",
+  "Java",
   "Spring boot",
   "JavaScript",
   "React",
