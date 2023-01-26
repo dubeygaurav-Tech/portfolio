@@ -3,9 +3,9 @@ export const projects = [
     title: "Client: Allianz Insurance",
     subtitle: "Thunderhead Solutions Architect",
     description:
-      "1) Provided and implemented the solutions to enable the client to switch from the manual document generations for Policy and Certificates to a systematic generation process using Thunderhead Application."+
-      "2) Standardized the documents across multiple regions enabling uniformity and centralized branding of the Clinical Trials documents."+
-      "3) Improved the efficiency of the underwriting process by removing the efforts on the boilerplate for the documents completely and thus enabling quicker turnaround for Policies and Certificates issuance."+
+      "1) Provided and implemented the solutions to enable the client to switch from the manual document generations for Policy and Certificates to a systematic generation process using Thunderhead Application.\n"+
+      "2) Standardized the documents across multiple regions enabling uniformity and centralized branding of the Clinical Trials documents.\n"+
+      "3) Improved the efficiency of the underwriting process by removing the efforts on the boilerplate for the documents completely and thus enabling quicker turnaround for Policies and Certificates issuance.\n"+
       "4) Developed the interface between Statement of Records(SOR) and Document Generation System for the Clinical Trials line of business using Springboot.",
     image: "./Allianz-logo.png",
     link: "https://reactbootcamp.com",
