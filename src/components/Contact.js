@@ -31,15 +31,14 @@ export default function Contact() {
     e.preventDefault();  
     console.log(name +" "+email+" "+message);
     alert("Message Sent successfully to the user!!");
-    /*emailjs.sendForm("service_gd_gmail", "template_email_gd", form.current, "38RJhyjc4R9AeKNxQ").then(
-      (result) => {
-        alert("Message sent!");
-        console.log(result.text)
-      },(error) => alert(error)
-    );
-    */
+    // emailjs.sendForm("service_gd_gmail", "template_email_gd", form.current, "38RJhyjc4R9AeKNxQ").then(
+    //   (result) => {
+    //     alert("Message sent!");
+    //     console.log(result.text)
+    //   },(error) => alert(error)
+    // );
 
-    e.target.reset();
+    // e.target.reset();
 
   }
 
