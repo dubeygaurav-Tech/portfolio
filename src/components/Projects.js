@@ -17,6 +17,9 @@ export default function Projects() {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             In the diverse world of technologies and products, got the opportunity to work with esteemed organizations
             in the Insurance and Banking Domain.
+            <br/>
+            <br/>
+            <i>(Hover on each logo to check the details)</i>
           </p>
         </div>
         <div class="grid grid-cols-2 hover:grid-cols-6 gap-4 -m-2 bg-gray">
