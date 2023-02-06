@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import ReactImageViewer from "./ReactImageViewer";
 import StackGrid from "react-stack-grid";
 import Clients from "../components/Clients";
@@ -8,12 +8,6 @@ export default function ImageViewer({photo}) {
     const [isOpen,setIsOpen]=React.useState(false);
     const [currImg,setCurrImg]=React.useState(0);
     const [photos,setPhotos]=React.useState(photo);
-    
-
-  const handleImageClick = (event) => {
-    setIsOpen(true);
-    setCurrImg(event);
-  };
 
   const handleImageClose = () => {
     setIsOpen(false);

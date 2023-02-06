@@ -1,8 +1,6 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
-import ImageViewer from "../helpers/ImageViewer";
-import {clients,employers} from "../data";
 import Clients from "./Clients"
 
 export default function Projects() {
@@ -22,9 +20,9 @@ export default function Projects() {
             <i>(Hover on each logo to check the details)</i>
           </p>
         </div>
-        <div class="grid grid-cols-2 hover:grid-cols-6 gap-4 -m-2 bg-gray">
+        <div className="grid grid-cols-2 hover:grid-cols-6 gap-4 -m-2 bg-gray">
           {projects.map((project) => (
-              <div className="flex flex-wrap relative w-full">
+              <div className="flex flex-wrap relative w-full" id={project}>
                 <img
                   alt="gallery"
                   className="absolute inset-0 object-contain object-center"
