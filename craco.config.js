@@ -7,4 +7,7 @@ module.exports = {
       ],
     },
   },
+  api: {
+        invokeUrl: 'https://ekba9b2wfk.execute-api.us-east-1.amazonaws.com/PROD'
+    }
 }
